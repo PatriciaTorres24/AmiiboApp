@@ -1,0 +1,578 @@
+{
+  "id": "c31f3b89-27cd-4f7c-9784-02ca51017a6a",
+  "version": "2.0",
+  "name": "AmiiboApp",
+  "url": "https://localhost:7086",
+  "tests": [{
+    "id": "6b34ac19-a193-45d9-87b5-638558b2dedd",
+    "name": "Home Page",
+    "commands": [{
+      "id": "304f5769-a2fd-4e85-bd37-dade3544af38",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9313052-bf73-4e68-bb8b-2f39249a72cb",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b4632da4-2ffe-4a48-abc0-25c1901898c0",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Welcome to our app!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ff8082f-ee2a-4c57-ad5d-643d0d668646",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Welcome to our app!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6dc07e9d-2aa8-4683-bf3a-ec76231e6a95",
+      "comment": "",
+      "command": "click",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Welcome to our app!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "633a081c-5dd1-404b-bfdb-6073c8684501",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=h1",
+      "targets": [
+        ["css=h1", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/h1", "xpath:idRelative"],
+        ["xpath=//h1", "xpath:position"],
+        ["xpath=//h1[contains(.,'Welcome to our app!')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb375ca4-25a9-447c-9e74-e2852028bcdd",
+      "comment": "",
+      "command": "verifyTitle",
+      "target": "Index",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d7412545-7834-49ee-a817-eb386b1f75ed",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Here you can search for any Nintendo Amiibo character and more info about them.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f9a7ca6-59a9-4e7c-b62e-73f71130408b",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Here you can search for any Nintendo Amiibo character and more info about them.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "fad625af-6be4-45c6-a77c-b32f92afe446",
+      "comment": "",
+      "command": "click",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Here you can search for any Nintendo Amiibo character and more info about them.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "978fed6e-00a5-41c7-869e-0a48bb465d10",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Here you can search for any Nintendo Amiibo character and more info about them.')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "41ed2b3b-938f-462b-9cc5-4512fdcb1b60",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p",
+      "targets": [
+        ["css=p", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Here you can search for any Nintendo Amiibo character and more info about them.')]", "xpath:innerText"]
+      ],
+      "value": "Here you can search for any Nintendo Amiibo character and more info about them."
+    }]
+  }, {
+    "id": "f396ceb5-b9f8-43a4-bc49-5a35da0ff613",
+    "name": "Search filters",
+    "commands": [{
+      "id": "fb8369ea-0897-4457-b9f8-8b37d8228e71",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d41e0336-59ea-4c80-ba19-ebe06e1ffe38",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00f930e9-2c03-4efd-b379-fb54f3ad2daf",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Amiibo List",
+      "targets": [
+        ["linkText=Amiibo List", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Amiibo List')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'amiibo')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Amiibo List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b844581-eb2b-455a-b5ea-251b0ec810f1",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Amiibo List",
+      "targets": [
+        ["linkText=Amiibo List", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Amiibo List')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'amiibo')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Amiibo List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "08ae365f-a2e6-4cfd-bf36-564c7fb45ce2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Amiibo List",
+      "targets": [
+        ["linkText=Amiibo List", "linkText"],
+        ["css=.active", "css:finder"],
+        ["xpath=//a[contains(text(),'Amiibo List')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'amiibo')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Amiibo List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "830dc8a4-f390-42a9-99a7-07b53892ccc1",
+      "comment": "",
+      "command": "click",
+      "target": "id=gameSeriesInput",
+      "targets": [
+        ["id=gameSeriesInput", "id"],
+        ["css=#gameSeriesInput", "css:finder"],
+        ["xpath=//select[@id='gameSeriesInput']", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/form/div[2]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c8580d3-6711-4f88-8c2a-8df30bb1a141",
+      "comment": "",
+      "command": "select",
+      "target": "id=gameSeriesInput",
+      "targets": [],
+      "value": "label=Animal Crossing"
+    }, {
+      "id": "574e2e4b-3ee6-41ed-a34b-5d3094448cea",
+      "comment": "",
+      "command": "click",
+      "target": "css=option:nth-child(2)",
+      "targets": [
+        ["css=option:nth-child(2)", "css:finder"],
+        ["xpath=//option[@value='Animal Crossing']", "xpath:attributes"],
+        ["xpath=//select[@id='gameSeriesInput']/option[2]", "xpath:idRelative"],
+        ["xpath=//option[2]", "xpath:position"],
+        ["xpath=//option[contains(.,'Animal Crossing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "aa443bd8-c4dc-467d-8416-49735c87f85d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn",
+      "targets": [
+        ["css=.btn", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='app']/div/main/div/form/div[4]/button", "xpath:idRelative"],
+        ["xpath=//div[4]/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Search')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae141d43-2386-465b-a50b-e822d7aebc8d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(2) > .form-label",
+      "targets": [
+        ["css=.col-md-4:nth-child(2) > .form-label", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/form/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Filter by Game Series')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39813450-1eb9-4b38-b4d4-8034a4084a3a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-md-4:nth-child(2) > .form-label",
+      "targets": [
+        ["css=.col-md-4:nth-child(2) > .form-label", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/form/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Filter by Game Series')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f24d33e3-e7a2-45f6-aeaf-0111a0f931e8",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.col-md-4:nth-child(2) > .form-label",
+      "targets": [
+        ["css=.col-md-4:nth-child(2) > .form-label", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/form/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Filter by Game Series')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e7a94ff-877b-4896-b2e1-48eb48e7b375",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.col-md-4:nth-child(2) > .form-label",
+      "targets": [
+        ["css=.col-md-4:nth-child(2) > .form-label", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/form/div[2]/label", "xpath:idRelative"],
+        ["xpath=//div[2]/label", "xpath:position"],
+        ["xpath=//label[contains(.,'Filter by Game Series')]", "xpath:innerText"]
+      ],
+      "value": "Filter by Game Series"
+    }, {
+      "id": "8983009e-2eec-4208-a878-2b023ffb98a4",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=.col-md-4:nth-child(1) > .form-label",
+      "targets": [
+        ["css=.col-md-4:nth-child(1) > .form-label", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/form/div/label", "xpath:idRelative"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'Search Character or Name')]", "xpath:innerText"]
+      ],
+      "value": "Search Character or Name"
+    }]
+  }, {
+    "id": "c032d096-1a1c-4d36-b240-8d6abbbada82",
+    "name": "Amiibo Character Details",
+    "commands": [{
+      "id": "69be9c71-98d5-4b0a-9f67-0a14ba60f79f",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bfcd5d77-d0f1-45de-a97e-739352c6f8ff",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "877080ff-de99-4b17-9936-a78df9097607",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Amiibo List",
+      "targets": [
+        ["linkText=Amiibo List", "linkText"],
+        ["css=.nav-item:nth-child(2) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Amiibo List')]", "xpath:link"],
+        ["xpath=//div[@id='navbarCollapse']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'amiibo')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,' Amiibo List')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8769159b-4042-46fa-9fc6-039fbb3db3d5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col-sm-3:nth-child(1) .card-img-top",
+      "targets": [
+        ["css=.col-sm-3:nth-child(1) .card-img-top", "css:finder"],
+        ["xpath=//img[@alt='Sandy']", "xpath:img"],
+        ["xpath=//div[@id='app']/div/main/div[2]/div/div/a/img", "xpath:idRelative"],
+        ["xpath=//img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9955afeb-4204-4227-865b-bd19a2fec3d4",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Sandy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54c4ea1c-d1df-4360-a7d7-09332441429a",
+      "comment": "",
+      "command": "click",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Sandy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76be7c95-dc75-4168-8050-55795c34ca3c",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=h2",
+      "targets": [
+        ["css=h2", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/h2", "xpath:idRelative"],
+        ["xpath=//h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Sandy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "206ee47e-93fa-42b4-bbb9-b8f684579a2b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "CA2BlazorProject",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b805fcb4-fbb0-40f2-83b7-9952bd521097",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Character: Sandy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "272dcf28-0051-4486-afa0-01699b8830df",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Character: Sandy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5e5849e3-5e1f-4f56-8e7f-89ffd4089f38",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Character: Sandy')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f18e9721-9a1a-4579-8bae-219577e0808a",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(3)",
+      "targets": [
+        ["css=p:nth-child(3)", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/p", "xpath:idRelative"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Character: Sandy')]", "xpath:innerText"]
+      ],
+      "value": "Character: Sandy"
+    }, {
+      "id": "6c5827aa-2f6f-4899-b6c6-eca3fbb07bda",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Game Series: Animal Crossing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "63166d69-4733-469b-acfe-a1350ab8a0c5",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Game Series: Animal Crossing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a5ee7d9c-ab0d-4817-bbc9-aaa40c405fa7",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Game Series: Animal Crossing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "50b9bccf-b604-434c-a291-c7a4c779a1ce",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=p:nth-child(4)",
+      "targets": [
+        ["css=p:nth-child(4)", "css:finder"],
+        ["xpath=//div[@id='app']/div/main/div/div/p[2]", "xpath:idRelative"],
+        ["xpath=//p[2]", "xpath:position"],
+        ["xpath=//p[contains(.,'Game Series: Animal Crossing')]", "xpath:innerText"]
+      ],
+      "value": "Game Series: Animal Crossing"
+    }]
+  }, {
+    "id": "89719c29-37ac-4a65-9838-efd7e041f8fd",
+    "name": "Github link",
+    "commands": [{
+      "id": "745e7900-35ab-4e1e-bc46-8c4e4ca5c361",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3b824770-515a-4fdc-9d33-7aa74ce50060",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1550x830",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7d293d0f-5bc6-41e3-a744-15ac65a0b0e7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bi",
+      "targets": [
+        ["css=.bi", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "66478429-0e5f-4824-97e2-336f04e51141",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hide-sm > .mb-3",
+      "targets": [
+        ["css=.hide-sm > .mb-3", "css:finder"],
+        ["xpath=//div[@id='repo-content-pjax-container']/div/div/div/div[2]/div/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "787fa3be-67a7-4b81-9371-824863470361",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hide-sm > .mb-3",
+      "targets": [
+        ["css=.hide-sm > .mb-3", "css:finder"],
+        ["xpath=//div[@id='repo-content-pjax-container']/div/div/div/div[2]/div/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0f25df2c-5e66-4147-83fc-7f8eb2a61c43",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.hide-sm > .mb-3",
+      "targets": [
+        ["css=.hide-sm > .mb-3", "css:finder"],
+        ["xpath=//div[@id='repo-content-pjax-container']/div/div/div/div[2]/div/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "21ec755e-c06e-4d8e-b624-fbcc63f58ce5",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.hide-sm > .mb-3",
+      "targets": [
+        ["css=.hide-sm > .mb-3", "css:finder"],
+        ["xpath=//div[@id='repo-content-pjax-container']/div/div/div/div[2]/div/div/div/div/h2", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'About')]", "xpath:innerText"]
+      ],
+      "value": "About"
+    }]
+  }],
+  "suites": [{
+    "id": "3258453e-f39f-4ed4-bce2-a5f1c4de6cfb",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://localhost:7086/"],
+  "plugins": []
+}
