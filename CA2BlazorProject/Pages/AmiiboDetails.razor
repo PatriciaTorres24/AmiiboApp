@@ -1,0 +1,96 @@
+﻿@page "/amiibo/{character}"
+@inject HttpClient Http
+
+<h3>Nintendo Amiibo Details</h3>
+
+@if (isLoading)
+{
+    <p>Loading...</p>
+}
+else if (amiibo == null)
+{
+    <p>No Amiibo found.</p>
+}
+else if (amiibo != null)
+{
+    <div style="display: flex; gap: 20px; margin: 20px;">
+        <div>
+            <h2>@amiibo.Name</h2><br>
+            <p><strong>Character:</strong> @amiibo.Character</p>
+            <p><strong>Game Series:</strong> @amiibo.GameSeries</p>
+            <p><strong>Release Dates:</strong><br>
+                    AU: @amiibo.Release?.Au<br>
+                    EU: @amiibo.Release?.Eu<br>
+                    JP: @amiibo.Release?.Jp<br>
+                    NA: @amiibo.Release?.Na
+            </p>
+        </div>
+        <img src="@amiibo.Image" alt="@amiibo.Name" style="height: 300px;" />
+    </div>
+}
+
+@code {
+    [Parameter] public string Character { get; set; }
+    private AmiiboDetailsModel amiibo;
+    private bool isLoading = true;
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var response = await Http.GetFromJsonAsync<AmiiboApiResponse>("https://www.amiiboapi.com/api/amiibo/");
+            amiibo = response?.Amiibo.FirstOrDefault(a =>
+                a.Character.Equals(Character, StringComparison.OrdinalIgnoreCase));
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error fetching Amiibo: {ex.Message}");
+        }
+        finally
+        {
+            isLoading = false;
+        }
+    }
+
+    public class AmiiboApiResponse
+    {
+        public AmiiboDetailsModel[] Amiibo { get; set; }
+    }
+
+    public class AmiiboDetailsModel
+    {
+        public string AmiiboSeries { get; set; }
+        public string Character { get; set; }
+        public string GameSeries { get; set; }
+        public string Name { get; set; }
+        public string Image { get; set; }
+        public string Tail { get; set; }
+        public string Head { get; set; }
+
+
+        private Release _release;
+
+        public Release Release
+        {
+            get => _release;
+            set
+            {
+                _release = value;
+                // Add any additional logic when setting Release
+            }
+        }
+    }
+
+    public class Release
+    {
+        public string Au { get; set; }
+        public string Eu { get; set; }
+        public string Jp { get; set; }
+        public string Na { get; set; }
+
+        public override string ToString()
+        {
+            return $"AU: {Au}, EU: {Eu}, JP: {Jp}, NA: {Na}";
+        }
+    }
+}
